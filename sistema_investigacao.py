@@ -59,7 +59,8 @@ print("Classificação: ", classificar_investigado(total_positivo))
 print("Após bruta analíse das suas respostas. Pela quantidade, ausência ou presença de sim, chegamos nessa conclusão.")
 
 
-#README, tópico de entrega do exercício do CP. Explicação de onde foram usadas repetição, condicionais e função.
+#README
+#Ttópico de entrega do exercício do CP. Explicação de onde foram usadas repetição, condicionais e função.
 #As funções aparecem nas linhas 13 e 38. o Objetivo de cada uma atende ao seu nome; a da linha 13 mostra o menu do sistema e imprimi as perguntas, usando uma estrutura de repetição while True, para que a resposta siga e absorva o que ela pede, no caso " s/n ", caso contrário, faz um retorno e imprimi a mensagem de erro, com formato incorreto de mensagem.
 #A função da linha 38 serve para classificar o usuario de acorco com quantos sim foram respondidos na def 13, e essas impressões são armazenaas e reultilizadas para saber se realmente atendem àquela circunstância, pelo return.
 #As condicioonais if e else nas duas def, são usadas junto de uma váriavel que a gente preescreveu e, segue o seu caminho de acordo com a lógica implementada.
