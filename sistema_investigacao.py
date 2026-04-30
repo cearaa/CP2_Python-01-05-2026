@@ -31,6 +31,11 @@ def fazer_pergunta(numero):
             print("Resposta Incorreta!!  Dígite apenas s/n. :)")
 
 
+def classificar_investigado(total_sim):
+    if total_sim == 5:
+        return "Assassino"
+    elif total_sim >= 3:
+        return "Cúmplice"
 
 
 
