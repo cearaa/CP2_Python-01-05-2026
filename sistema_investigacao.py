@@ -1,4 +1,5 @@
 #Integrantes da Challenge/CP
+
 #Tárik Moussa Alma - RM: 571411
 #Giovanni Azevedo - RM: 569750
 #Fabricio Aquiles Sales da Silva - RM: 570985
@@ -13,11 +14,11 @@ def fazer_pergunta(numero):
         elif numero == 2:
             pergunta = input("Você esteve pelas proxímidades da praia do local do crime? (s/n): ")
         elif numero == 3:
-            pergunta = input("Você mora perto da vítima André Monet? (s/n): ")
+            pergunta = input("Você mora perto ou aos arredores da vítima Art? (s/n): ")
         elif numero == 4:
-            pergunta = input("Você tinha dívidas com a vítima? (s/n): ")
+            pergunta = input("Você tinha dívidas, emprestou ou circulava dinheiro com o Art? (s/n): ")
         elif numero == 5:
-            pergunta = input("Você já trabalhou de comerciante com a vítima? (s/n): ")
+            pergunta = input("Art era um bom comerciante. Você já trabalhou com ou usurfruia dos produtos dele? (s/n): ")
         else:
             return 0
 
