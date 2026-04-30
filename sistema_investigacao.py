@@ -10,9 +10,15 @@ def fazer_pergunta(numero):
         if numero == 1:
             perfunta = input("Você telefonou para a vítima antes, depois ou entre o tempo do assassinato? (s/n): ? ")
         elif numero == 2:
-            perfunta = input("Você esteve pelas proxímidades do local do crime? (s/n): ")
+            perfunta = input("Você esteve pelas proxímidades da praia do local do crime? (s/n): ")
         elif numero == 3:
             pergunta = input("Você mora perto da vítima André Monet? (s/n): ")
         elif numero == 4:
             pergunta = input("Você tinha dívidas com a vítima? (s/n): ")
         elif numero == 5:
+            pergunta = input("Você já trabalhou de comerciante com a vítima? (s/n): ")
+        else:
+            return 0
+
+        resposta = resposta.lower()
+
