@@ -7,3 +7,11 @@
 #Carlos Eduardo - RM: 569574
 #Ítalo Neto - RM: 572912
 
+#Função para exibir opções
+def exibir_menu():
+    print('1. Windows Server 2022 ')
+    print('2. Ubuntu Server ')
+    print('3. Red Hat Enterprise Linux (RHEL)')
+    print('4. Kali Linux\n')
+
+
