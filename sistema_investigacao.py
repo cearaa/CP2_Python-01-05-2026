@@ -5,6 +5,7 @@
 #Carlos Eduardo - RM: 569574
 #Ítalo Neto - RM: 572912
 
+#Função pedida no exercício
 def fazer_pergunta(numero):
     while True:
         if numero == 1:
@@ -21,4 +22,13 @@ def fazer_pergunta(numero):
             return 0
 
         resposta = resposta.lower()
+
+        if resposta == "s":
+            return 1
+        elif resposta == "n":
+            return 0
+        else:
+            print("Resposta Incorreta!!  Dígite apenas s/n. :)")
+
+
 
