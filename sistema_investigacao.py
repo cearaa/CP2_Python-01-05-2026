@@ -8,8 +8,8 @@
 
 #Função pedida no exercício
 print("=================== SISTEMA DE INVESTIGAÇÃO CRIMINAL ======================")
-print("Você será interrogado sobre o caso de Lucas Ferraz.")
-print("Responda apenas com 's' para sim ou 'n' para não.\n")
+print("\nVocê será interrogado sobre o caso Art Alma.")
+print("Responda com sinceridade, pois nossos profissionais não deixam nada passar.\n")
 def fazer_pergunta(numero):
     while True:
         if numero == 1:
