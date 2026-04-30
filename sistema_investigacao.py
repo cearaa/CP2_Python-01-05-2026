@@ -7,10 +7,13 @@
 #Ítalo Neto - RM: 572912
 
 #Função pedida no exercício
+print("=================== SISTEMA DE INVESTIGAÇÃO CRIMINAL ======================")
+print("Você será interrogado sobre o caso de Lucas Ferraz.")
+print("Responda apenas com 's' para sim ou 'n' para não.\n")
 def fazer_pergunta(numero):
     while True:
         if numero == 1:
-            pergunta = input("Você telefonou para a vítima Art antes, depois ou entre o tempo do assassinato? (s/n): ? ")
+            pergunta = input("Você telefonou para o Art antes, depois ou entre o tempo do assassinato? (s/n): ? ")
         elif numero == 2:
             pergunta = input("Você esteve pelas proxímidades da praia do local do crime? (s/n): ")
         elif numero == 3:
@@ -34,9 +37,9 @@ def fazer_pergunta(numero):
 
 def classificar_investigado(total_sim):
     if total_sim == 5:
-        return "Após a análise de recursos sêmióticos, você foi entitulado como: Assassino!!"
+        return "As evideências são claras... Você é o Assassino!!!"
     elif total_sim >= 3:
-        return "Com vista grossa, te declaramos como Cumplíce, fique esperto.."
+        return "Após a análise de recursos sêmióticos, você foi entitulado como Cumplíce."
     elif total_sim == 2:
         return "Por pouco... Você é Suspeito, mas se prepare para mais perguntas.."
     else:
