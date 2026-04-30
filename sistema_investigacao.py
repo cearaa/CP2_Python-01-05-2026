@@ -9,9 +9,9 @@
 def fazer_pergunta(numero):
     while True:
         if numero == 1:
-            perfunta = input("Você telefonou para a vítima antes, depois ou entre o tempo do assassinato? (s/n): ? ")
+            pergunta = input("Você telefonou para a vítima antes, depois ou entre o tempo do assassinato? (s/n): ? ")
         elif numero == 2:
-            perfunta = input("Você esteve pelas proxímidades da praia do local do crime? (s/n): ")
+            pergunta = input("Você esteve pelas proxímidades da praia do local do crime? (s/n): ")
         elif numero == 3:
             pergunta = input("Você mora perto da vítima André Monet? (s/n): ")
         elif numero == 4:
@@ -21,11 +21,11 @@ def fazer_pergunta(numero):
         else:
             return 0
 
-        resposta = resposta.lower()
+        pergunta = pergunta.lower()
 
-        if resposta == "s":
+        if pergunta == "s":
             return 1
-        elif resposta == "n":
+        elif pergunta == "n":
             return 0
         else:
             print("Resposta Incorreta!!  Dígite apenas s/n. :)")
