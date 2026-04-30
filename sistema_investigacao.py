@@ -39,7 +39,7 @@ def classificar_investigado(total_sim):
     if total_sim == 5:
         return "As evidências são claras... Você é o Assassino!!!"
     elif total_sim >= 3:
-        return "Após a análise de recursos sêmióticos, você foi entitulado como Cúmplice."
+        return "Após a análise de recursos semióticos, você foi intítulado como Cúmplice."
     elif total_sim == 2:
         return "Por pouco... Você é Suspeito, mas se prepare para mais perguntas.."
     else:
