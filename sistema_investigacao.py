@@ -7,7 +7,7 @@
 #Ítalo Neto - RM: 572912
 
 #Função pedida no exercício
-print("=================== SISTEMA DE INVESTIGAÇÃO CRIMINAL ======================")
+print("======================================== SISTEMA DE INVESTIGAÇÃO CRIMINAL =============================")
 print("\nVocê será interrogado sobre o caso Art Alma.")
 print("Responda com sinceridade, pois nossos profissionais não deixam nada passar.\n")
 def fazer_pergunta(numero):
@@ -34,7 +34,7 @@ def fazer_pergunta(numero):
         else:
             print("Resposta Incorreta!!  Dígite apenas s/n. :)")
 
-
+#Função pedida no ex
 def classificar_investigado(total_sim):
     if total_sim == 5:
         return "As evideências são claras... Você é o Assassino!!!"
@@ -46,6 +46,13 @@ def classificar_investigado(total_sim):
         return "Você é Inocente. Mas estamos de olho. "
 
 
+#Mainzada
+total_positivo = 0
+contador = 1
 
+while contador <= 5:
+    total_positivo += fazer_pergunta(contador)
+    contador += 1
 
-
+print("\nTotal de respostas sim para mérito de classificação: ", total_positivo)
+print("Classificação: ", classificar_investigado(total_positivo))
