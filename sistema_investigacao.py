@@ -32,3 +32,5 @@ def fazer_pergunta(numero):
 
 
 
+
+
