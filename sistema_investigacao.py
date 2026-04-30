@@ -9,7 +9,7 @@
 def fazer_pergunta(numero):
     while True:
         if numero == 1:
-            pergunta = input("Você telefonou para o antes, depois ou entre o tempo do assassinato? (s/n): ? ")
+            pergunta = input("Você telefonou para a vítima Art antes, depois ou entre o tempo do assassinato? (s/n): ? ")
         elif numero == 2:
             pergunta = input("Você esteve pelas proxímidades da praia do local do crime? (s/n): ")
         elif numero == 3:
@@ -33,13 +33,13 @@ def fazer_pergunta(numero):
 
 def classificar_investigado(total_sim):
     if total_sim == 5:
-        return "Assassino"
+        return "Após a análise de recursos sêmióticos, você foi entitulado como: Assassino!!"
     elif total_sim >= 3:
-        return "Cúmplice"
+        return "Com vista grossa, te declaramos como Cumplíce, fique esperto.."
     elif total_sim == 2:
-        return "Suspeita"
+        return "Por pouco... Você é Suspeito, mas se prepare para mais perguntas.."
     else:
-        return "Inocente"
+        return "Você é Inocente. Mas estamos de olho. "
 
 
 
