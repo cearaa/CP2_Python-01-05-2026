@@ -13,7 +13,7 @@ print("Responda com sinceridade, pois nossos profissionais não deixam nada pass
 def fazer_pergunta(numero):
     while True:
         if numero == 1:
-            pergunta = input("Você telefonou para o Art antes, depois ou entre o tempo do assassinato? (s/n): ? ")
+            pergunta = input("Você telefonou para o Art antes, depois ou entre o tempo do assassinato? (s/n): ")
         elif numero == 2:
             pergunta = input("Você esteve pelas proxímidades da praia do local do crime? (s/n): ")
         elif numero == 3:
