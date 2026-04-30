@@ -11,7 +11,8 @@ sistema_escolhido = "Kali Linux"
 
 #Função para exibir opções
 def mostrar_menu():
-    print('1. Windows Server 2022 ')
+    print("==============================================  Menu de Votação ==================================")
+    print('\n1. Windows Server 2022 ')
     print('2. Ubuntu Server ')
     print('3. Red Hat Enterprise Linux (RHEL) ')
     print(f'4. {sistema_escolhido} ')
