@@ -11,6 +11,7 @@ opcao2 = "Ubuntu Server"
 opcao3 = "Red Hat Enterprise Linux (RHEL)"
 opcao4 = "Kali Linux"
 
+#Defs respectivas ao exercício
 def mostrar_menu():
     print("==============================================  Menu de Votação ==================================")
     print(f'\n1. {opcao1} ')
